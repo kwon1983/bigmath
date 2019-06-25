@@ -1,0 +1,47 @@
+{
+    "name": "bigmath",
+    "version": "1.0.0",
+    "description": "calculate big number",
+    "main": "index.js",
+    "scripts": {
+        "build-dev": "webpack --mode development",
+        "build": "webpack --mode production",
+        "dev": "webpack-dev-server --open --mode development",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kwon1983/bigmath.git"
+    },
+    "keywords": [
+        "bigint",
+        "math",
+        "calculate",
+        "pow"
+    ],
+    "author": "inkorea1983@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kwon1983/bigmath/issues"
+    },
+    "homepage": "https://github.com/kwon1983/bigmath#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-loader": "^7.1.5",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^3.0.0",
+        "eslint": "^5.3.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-plugin-import": "^2.18.0",
+        "eslint-plugin-jsx-a11y": "^6.2.1",
+        "eslint-plugin-react": "^7.14.2",
+        "html-webpack-plugin": "^3.2.0",
+        "path": "^0.12.7",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.35.0",
+        "webpack-cli": "^3.3.5",
+        "webpack-dev-server": "^3.7.2"
+    }
+}
